@@ -1,5 +1,5 @@
-class Professor:
-    def __init__(self, nome, disciplina): # Objeto inicia com esses parâmetros
+class Professor: # Cria a classe Professor
+    def __init__(self, nome, disciplina): # Clase recebe nome e disciplina
         self.nome = nome # Guarda o nome do Professor
         self.disciplina = disciplina # Guarda a Disciplina
 

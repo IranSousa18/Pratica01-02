@@ -1,5 +1,5 @@
-class Endereco: # Cria o objeto Endereco
-    def __init__(self, rua, numero, cidade): # O objeto inicia com esses parâmetros
+class Endereco: # Cria a classe Endereco
+    def __init__(self, rua, numero, cidade): # classe recebe rua, numero, cidade
         self.rua = rua # Guarda a rua
         self.numero = numero # Guarda o número
         self.cidade = cidade # Guarda a cidade

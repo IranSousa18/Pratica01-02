@@ -10,14 +10,14 @@
 
 ## Relacionamentos
 
-# Composição
+### Composição
 
 A sala não existe sem a escola
 
 escola --> sala_aula
 
 
-## Associação
+### Associação
 
 professor e escola existem independentemente
 
