@@ -6,7 +6,7 @@
 
 Sistema de Gerenciamento Escolar.
 
--> Acesse: [Pratica_01-02](pratica_01)
+-> Acesse: [Pratica_01](pratica_01)
 
 ### Atividade Prática 02
 

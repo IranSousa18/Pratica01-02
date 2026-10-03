@@ -5,5 +5,5 @@ class Endereco: # Cria a classe Endereco
         self.cidade = cidade # Guarda a cidade
 
 
-        def exibir_endereco(self): # Método criado para exibir o endereço
-            return f"{self.rua}, {self.numero} - {self.cidade}"
+    def exibir_endereco(self): # Método criado para exibir o endereço
+        return f"{self.rua}, {self.numero} - {self.cidade}";
