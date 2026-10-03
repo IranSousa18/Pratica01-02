@@ -1,31 +1,35 @@
-# Atividade Prática 01
+# Atividade Prática 01 - Sistema de Gerenciamento Escolar
 
-# Entidades
+## Objetivo
 
-- aluno
-- endereco
-- escola
-- professor
-- sala_aula
+Implementar um sistema utilizando Programação Orientada a Objetos em Python demonstrando os conceitos de:
+
+- Associação
+- Agregação
+- Composição
+
+## Diagrama UML
+
+![Diagrama UML](diagramas/diagrama_uml.png)
+
+## Classes Implementadas
+
+- Escola
+- SalaDeAula
+- Professor
+- Aluno
+- Endereco
 
 ## Relacionamentos
 
-### Composição
+| Relacionamento | Tipo |
+|---------------|------|
+| Escola → SalaDeAula | Composição |
+| Escola → Professor | Associação |
+| Aluno → Endereco | Agregação |
 
-A sala não existe sem a escola
+## Como executar
 
-escola --> sala_aula
-
-
-### Associação
-
-professor e escola existem independentemente
-
-escola --> professor
-
-
-### Agregação
-
-O endereço pode continuar existindo mesmo sem o aluno
-
-aluno --> endereco
+```bash
+python main.py
+```
