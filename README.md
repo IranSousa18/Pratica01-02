@@ -10,4 +10,6 @@ Sistema de Gerenciamento Escolar.
 
 ### Atividade Prática 02
 
-(Será adicionada posteriormente)
+Sistema de Gerenciamento de uma Locadora de Veículos.
+
+-> Acesse: [Pratica_02](pratica_02)
